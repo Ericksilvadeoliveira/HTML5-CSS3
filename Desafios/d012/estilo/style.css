@@ -42,6 +42,33 @@ header a:hover {
     text-decoration: underline;
 }
 
+.texto {
+    font-family: var(--fonte-texto);
+    font-size: 3.5vw;
+    padding: 20px;
+}
+.imagem {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--fonte-texto);
+    font-size: 3.5vw;
+    padding: 20px;
+}
+
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+}
+#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+}
 footer {
     background-color: black;
     color: white;
