@@ -8,7 +8,7 @@
     --fonte-footer: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
+html, body {
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
@@ -24,7 +24,7 @@ header h1 {
     font-family: var(--fonte-header);
     font-weight: bold;
     font-variant: small-caps;
-    font-size: 10vh;
+    font-size: 10vw;
     margin: 0px;
     padding-top: 50px;
 }
@@ -64,7 +64,8 @@ section {
 }
 
 .imagem p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.384);
     color: white;
 }
